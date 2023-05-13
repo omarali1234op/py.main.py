@@ -22,7 +22,7 @@ app=Client(
     "MediaToTelegraphLink",
     api_id = "12421436",
     api_hash = "fbe8061f1148eabbacdf9e0713e8b74a",
-    bot_token = '5617535290:AAF-jVB0riU_Bgn_CqIjBZy9SwM5m95uWD0'
+    bot_token = '5617535290:AAF6vw8CYybW0BDVH4hKQ4d_rKVLrWTksfo'
 )
 
 @app.on_message(filters.command('start') & filters.private)
@@ -34,7 +34,6 @@ async def start(client, message):
 SOURCE VEGA : @SOURCEVEGA
 Dav : @l_b10
 › الصيغ المدعومة : 'jpeg', 'jpg', 'png', 'mp4' ، 'gif'.**
-
 **› [- source vega by : ali ♡](tg://user?id=5385468134)**
             """
     await app.send_message(message.chat.id, text, disable_web_page_preview=True)
