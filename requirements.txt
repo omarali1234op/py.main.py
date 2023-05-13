@@ -1,0 +1,6 @@
+telegraph
+Pillow
+Pyrogram
+TgCrypto
+aiohttp
+
